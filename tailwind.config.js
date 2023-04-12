@@ -5,8 +5,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-  },
-  plugins: [],
+    extend: {
+      backgroundImage: {
+        "terradroids": "url('/src/assets/bg.png')"
+      },
+    },
+    plugins: [],
+  }
 }
-
