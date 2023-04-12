@@ -39,7 +39,7 @@ Chart.defaults.color = "white";
 const dataPoints = 100;
 const randRange = 5;
 // 60FPS = 16.67ms
-const updateInterval = 333;
+const updateInterval = 500;
 
 const App = () => {
   const [opened, { open, close }] = useDisclosure(false);
