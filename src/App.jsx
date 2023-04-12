@@ -295,11 +295,11 @@ const App = () => {
         </div>
         ETD: {batteryTime}m
       </div>
-      <div className="fixed top-3 right-4 text-right">
+      <div className="fixed -top-3 sm:top-3 right-8 sm:right-4 text-right -rotate-90 sm:rotate-0 origin-right">
         Created by TerraDroids<br />
         Initiated on April 11, 2023
       </div>
-      <div className="bg-terradroids w-screen h-screen fixed left-0 top-0 bottom-0 right-0 -z-10 bg-no-repeat bg-center bg-cover"></div>
+      <div className="bg-terradroids-full w-screen h-screen fixed left-0 top-0 bottom-0 right-0 -z-10 bg-no-repeat bg-center bg-cover"></div>
       <div className="text-center text-xl sm:text-3xl md:text-5xl p-5 tracking-wide font-bold">
         Ground Control System
       </div>
